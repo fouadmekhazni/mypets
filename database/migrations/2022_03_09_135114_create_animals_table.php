@@ -16,6 +16,10 @@ return new class extends Migration
         Schema::create('animals', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string(nom);
+            $table->string(age);
+            $table->string(descr);
+            $table->string(image);
         });
     }
 
