@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Animal from 'Animal';
+import Animal from './Animal';
 import axios from 'axios';
 
 class AnimalsList extends React.Component{
